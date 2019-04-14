@@ -1,0 +1,25 @@
+.wheater {
+    width: 300px;
+    border: 1px solid #ced4da;
+    border-radius: 16px;
+    padding: 10px;
+
+    & > h2 {
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    &_summary {
+        display: flex;
+        flex-direction: column;
+
+        > div {
+            display: flex;
+
+            > div {
+                flex: 1;
+            }
+        }
+    }
+}
